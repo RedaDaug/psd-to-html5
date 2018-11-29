@@ -1,0 +1,28 @@
+.btn {
+	border-radius: 50px;
+	color: white;
+	text-decoration: none;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	transition: 0.3s;
+	font-size: 16px;
+	font-weight: 700;
+	
+	
+	&--dark {
+		background-color: $mainDarkGray;
+	}	
+	
+	&--red {
+		background-color: $mainRed;
+	}
+	
+
+	&--big {
+		padding: 23px 35px;
+		font-size: 18px;
+		
+	}
+	
+}
+

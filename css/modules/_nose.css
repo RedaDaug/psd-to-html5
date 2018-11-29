@@ -1,0 +1,5 @@
+.nose {
+	background-image: linear-gradient(rgba(218,51,46,0.6),rgba(218,51,46,0.6)), url('../../img/nose-bg.png');
+	background-size: cover;
+	background-position: center;
+}

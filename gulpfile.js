@@ -11,7 +11,7 @@ browserSync = require('browser-sync').create();
 gulp.task('styles', function(){
 	return gulp.src('./css/style.css')
 		.pipe(postcss([cssImport, cssVars, nested, autoprefixer]))
-		.pipe(gulp.dest('./temp/style.css'));
+		.pipe(gulp.dest('./temp'));
 	
 });
 
