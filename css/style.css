@@ -1,5 +1,8 @@
 @import "normalize.css";
+@import "base/_variables";
 @import "modules/_hero";
+
+
 
 
 

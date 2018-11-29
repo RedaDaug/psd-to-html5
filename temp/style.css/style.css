@@ -350,7 +350,7 @@ template {
 }
 
 .hero {
-	color: #484848;
+	color: #2f5573;
 	float: left;
 	margin: 10px;
 	display: grid;
@@ -363,6 +363,12 @@ template {
 .hero a {
 		text-decoration: none;
 	}
+
+.hero--labas {
+		color: green;
+	}
+
+
 
 
 
