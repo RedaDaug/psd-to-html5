@@ -1,5 +1,33 @@
 .nose {
-	background-image: linear-gradient(rgba(218,51,46,0.6),rgba(218,51,46,0.6)), url('../../img/nose-bg.png');
+	background-image: url('../../img/nose-bg.png');
 	background-size: cover;
 	background-position: center;
+	
+	&__text-container {
+		max-width: 647px;
+		padding-top: 200px;
+		padding-bottom: 170px;
+		
+	}
+	
+	&__title {
+		font-weight: 700;
+		font-size: 52px;
+		color: white;
+		text-transform: uppercase;
+	}
+	
+	&__paragraph {
+		font-size: 24px;
+		max-width: 385px;
+		margin-top: 55px;
+		margin-bottom: 72px;
+
+	}
+	
+	span {
+		color: $mainRed;
+	}
+	
+
 }

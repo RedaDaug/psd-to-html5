@@ -1,13 +1,15 @@
 @font-face {
-	font-family: 'HelveticaNeue-Thin';
-	src: local('HelveticaNeue-Thin.oft'), url('HelveticaNeue-Thin.oft') format('opentype');
+    font-family: 'HelveticaNeue-Thin';
+    src: local('HelveticaNeue-Thin.otf'), url('../fonts/HelveticaNeue-Thin.otf') format('opentype');
 }
 
 body {
 	font-family: 'Montserrat', sans-serif;	
+	color: $mainDarkGray;
 }
 
 p {
 	font-family: 'HelveticaNeue-Thin';
 }
+
 
