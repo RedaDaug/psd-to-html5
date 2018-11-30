@@ -1,0 +1,26 @@
+.social	{
+	background-color: $mainDarkGray;
+	color: white;
+	padding-top: 120px;
+	padding-bottom: 125px;
+	
+	&__title {
+		font-size: 20px;
+		font-weight: 700;
+	}
+	
+	&__text {
+		font-size: 15px;
+		margin-bottom: 25px;		
+	}
+	
+	&__list {}
+	
+	&__italic {
+		font-style: italic;
+	}
+	
+	span {
+		font-size: 11px;		
+	}
+}

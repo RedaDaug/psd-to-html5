@@ -4,17 +4,40 @@
 	background-position: center;
 	background-attachment: fixed;
 	
-	&__navigation-container {
-		float: right;		
-	}	
+	
+	
+	&__main-container {
+		display: inline-block;
+		margin-top: 85px;
+		
+	}
+	
+	&__text-container {
+		max-width: 485px;
+		float: left;
+		padding-bottom: 70px;
+	}
+	
+	&__img {
+		float: right;
+	}
+	
+	&__iphone {
+		width: 85%;
+		position: relative;
+		margin-bottom: -240px;
+
+	}
+	
 	
 	&__title {
 		font-size: 52px;
 		color: white;
+		text-transform: uppercase;
 		
 	}
 	
-	&__paragraph {
+	&__paragraph {		
 		font-size: 36px;
 		color: white;
 	

@@ -23,6 +23,11 @@
 		font-size: 18px;		
 	}
 	
+	&__icon {
+		transform: translateY(15px);
+		margin-right: 10px;
+	}
+	
 	
 }
 
