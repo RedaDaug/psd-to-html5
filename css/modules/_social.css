@@ -1,8 +1,8 @@
 .social	{
 	background-color: $mainDarkGray;
 	color: white;
-	padding-top: 120px;
-	padding-bottom: 125px;
+	padding-top: 80px;
+	padding-bottom: 85px;
 	
 	&__title {
 		font-size: 20px;
@@ -11,16 +11,46 @@
 	
 	&__text {
 		font-size: 15px;
+		line-height: 20px;
 		margin-bottom: 25px;		
 	}
+		
 	
-	&__list {}
-	
-	&__italic {
+	&__about_paragraph {
 		font-style: italic;
+		max-width: 270px;
+
+	}
+	
+	&__twitter_paragraph {
+		max-width: 250px;
 	}
 	
 	span {
 		font-size: 11px;		
+	}
+	
+	&__list-item {
+		overflow: hidden;
+	}
+	
+	&__list-item-text {
+		float: left;
+		max-width: 155px;
+	}
+
+	
+	&__square {
+		height: 40px;
+		width: 55px;
+		background-color: $mainLightRed;
+		margin-bottom: 25px;
+		vertical-align: middle;
+		float: left;
+		margin-right: 15px;
+	}
+	
+	b {
+		font-weight: 600;
 	}
 }

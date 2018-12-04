@@ -397,6 +397,11 @@ p {
 		background-color: #d9332d;
 	}
 
+.btn--red:hover {
+		background-color: #c33934;
+		transition: 0.3s;
+	}
+
 .btn--big {
 		padding: 23px 30px;
 		font-size: 18px;	
@@ -499,13 +504,12 @@ p {
 	background-size: cover;
 	background-position: center;
 	
-
 }
 
 .nose__text-container {
 		max-width: 647px;
-		padding-top: 200px;
-		padding-bottom: 170px;
+		padding-top: 160px;
+		padding-bottom: 150px;
 		
 	}
 
@@ -520,7 +524,7 @@ p {
 		font-size: 24px;
 		max-width: 385px;
 		margin-top: 55px;
-		margin-bottom: 72px;
+		margin-bottom: 92px;
 
 	}
 
@@ -531,8 +535,8 @@ p {
 .social	{
 	background-color: #282828;
 	color: white;
-	padding-top: 120px;
-	padding-bottom: 125px;
+	padding-top: 80px;
+	padding-bottom: 85px;
 }
 
 .social__title {
@@ -542,17 +546,45 @@ p {
 
 .social__text {
 		font-size: 15px;
+		line-height: 20px;
 		margin-bottom: 25px;		
 	}
 
-.social__list {}
-
-.social__italic {
+.social__about_paragraph {
 		font-style: italic;
+		max-width: 270px;
+
+	}
+
+.social__twitter_paragraph {
+		max-width: 250px;
 	}
 
 .social span {
 		font-size: 11px;		
+	}
+
+.social__list-item {
+		overflow: hidden;
+	}
+
+.social__list-item-text {
+		float: left;
+		max-width: 155px;
+	}
+
+.social__square {
+		height: 40px;
+		width: 55px;
+		background-color: #c33934;
+		margin-bottom: 25px;
+		vertical-align: middle;
+		float: left;
+		margin-right: 15px;
+	}
+
+.social b {
+		font-weight: 600;
 	}
 
 .features {

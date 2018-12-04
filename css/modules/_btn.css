@@ -23,6 +23,12 @@
 	
 	&--red {
 		background-color: $mainRed;
+	}	
+	
+	&--red:hover {
+		background-color: $mainLightRed;
+		-webkit-transition: 0.3s;
+		transition: 0.3s;
 	}
 	
 
