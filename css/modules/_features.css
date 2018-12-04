@@ -1,7 +1,7 @@
 .features {
 	text-align: center;
-	padding-top: 88px;
-	padding-bottom: 108px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	
 	&__title {
 		font-weight: 700;
@@ -15,7 +15,8 @@
 		font-family: 'HelveticaNeue-Thin';
 		font-size: 22px;
 		margin-bottom: 65px;
-		max-width: 850px;
+		line-height: 28px;
+		max-width: 840px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -28,7 +29,9 @@
 	
 	&__paragraph-small {
 		font-size: 18px;
+		line-height: 24px;
 		max-width: 276px;
+		color: #646464;
 	}
 	
 }

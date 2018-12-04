@@ -1,5 +1,4 @@
 .header {
-	padding-top: 45px;
 	
 	&__logo {
 		float: left;
@@ -8,18 +7,24 @@
 	&__nav {
 		float: right;
 		
-		a {
+		a{
 			color: white;
 			text-decoration: none;
-			padding-right: 40px;
+			margin-right: 40px;
 			text-transform: uppercase;
+			padding-bottom: 10px;
+			
+		}
+		
+		a:hover {				
+			border-bottom: 4px solid white;
 		}
 	}
+	
 	
 	li {
 		display: inline-block;
 		color: white;
-	}
-	
+	}	
 	
 }

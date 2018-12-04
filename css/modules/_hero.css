@@ -1,4 +1,5 @@
 .hero {
+	background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(218,51,46,0.6)),to(rgba(218,51,46,0.6))), url('../../img/hero-bg.png');
 	background-image: linear-gradient(rgba(218,51,46,0.6),rgba(218,51,46,0.6)), url('../../img/hero-bg.png');
 	background-size: cover;
 	background-position: center;
@@ -9,17 +10,20 @@
 	&__main-container {
 		display: inline-block;
 		margin-top: 85px;
+		position: relative;
+		margin-bottom: 25px;
 		
 	}
 	
 	&__text-container {
-		max-width: 485px;
+		width: 50%;
 		float: left;
-		padding-bottom: 70px;
 	}
 	
 	&__img {
 		float: right;
+		position: absolute;
+		right: -115px;
 	}
 	
 	&__iphone {
@@ -40,6 +44,7 @@
 	&__paragraph {		
 		font-size: 36px;
 		color: white;
+		margin-bottom: 65px;
 	
 	}
 
