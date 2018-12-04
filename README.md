@@ -2,4 +2,4 @@
 
 Udemy Course - PSD to Responsive HTML5: Beginner to Advanced by Filip Kordanovski
 
-For this project I was using PostCSS with Gulp.
+For this project I was additionally using PostCSS with Gulp.
