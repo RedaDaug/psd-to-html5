@@ -10,6 +10,8 @@
 @import "modules/_nose";
 @import "modules/_social";
 @import "modules/_features";
+@import "modules/_footer";
+@import "animation/_slideInUp";
 
 
 

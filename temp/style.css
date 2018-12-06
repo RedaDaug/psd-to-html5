@@ -372,6 +372,10 @@ p {
 	border: none;
 }
 
+.container--low {
+		padding: 20px 20px;
+	}
+
 .btn {
 	border-radius: 50px;
 	color: white;
@@ -472,31 +476,42 @@ p {
 		float: left;
 	}
 
-.hero__img {
+.hero__imgs {
 		float: right;
-		position: absolute;
-		right: -115px;
+    	position: absolute;
+		right: -135px;
 	}
 
 .hero__iphone {
 		width: 85%;
 		position: relative;
 		margin-bottom: -240px;
+	}
+
+.hero__iphone-btn {
+		position: absolute;	
+		right: 215px;
+
+	}
+
+.hero__iphone-on {
+		width: 54%;
+		position: absolute;	
+		right: 175px;
+		top: 112px;
 
 	}
 
 .hero__title {
 		font-size: 52px;
 		color: white;
-		text-transform: uppercase;
-		
+		text-transform: uppercase;		
 	}
 
 .hero__paragraph {		
 		font-size: 36px;
 		color: white;
-		margin-bottom: 65px;
-	
+		margin-bottom: 65px;	
 	}
 
 .nose {
@@ -624,6 +639,83 @@ p {
 		max-width: 276px;
 		color: #646464;
 	}
+
+.footer {
+	background-color: #d7dedc;
+	
+}
+
+.footer__content {
+		text-align: center;	
+		font-size: 15px;
+	}
+
+.footer__inline {
+		display: inline-block;
+		vertical-align: middle;		
+	}
+
+.footer__copy-right {
+		margin-right: 40px;
+	}
+
+.footer__copy-right:after {
+		content: "";
+		border: 1px solid #555555;
+		margin-left: 40px;
+		
+		
+		
+	}
+
+.footer__fb,
+	.footer__tw{
+		margin-right: 20px;
+	}
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+@-webkit-keyframes slideOutDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
 
 
 
