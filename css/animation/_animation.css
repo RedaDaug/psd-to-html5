@@ -7,10 +7,11 @@
 }
 
 
+
 .js-wp-3 {
     opacity: 0;
-    -webkit-animation-delay: 7s;
-    animation-delay: 7s;
+    -webkit-animation-delay: 3.2s;
+    animation-delay: 3.2s;
 }
 
 .js-wp-3.animated {
