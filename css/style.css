@@ -1,5 +1,4 @@
 @import "normalize.css";
-
 @import "base/_variables";
 @import "base/_main";
 @import "modules/_container";
@@ -13,9 +12,5 @@
 @import "modules/_features";
 @import "modules/_footer";
 @import "animation/_animation";
-
-
-
-
 
 

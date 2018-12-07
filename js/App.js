@@ -1,8 +1,10 @@
+
+
 $(document).ready (function() {
     
    $('.js-wp-2').waypoint(function(direction) {
        
-       $('.js-wp-2').addClass('animated slideInUp');
+       $('.js-wp-2').addClass('opacity--one animated slideInUp');
        
    }, {
 		offset: '70%'
@@ -10,7 +12,7 @@ $(document).ready (function() {
     
     $('.js-wp-3').waypoint(function(direction) {
        
-       $('.js-wp-3').addClass('animated fadeIn');
+       $('.js-wp-3').addClass('opacity-one animated  fadeIn');
        
    }, {
 		offset: '70%'
@@ -19,7 +21,35 @@ $(document).ready (function() {
     
     
     $(".hero__iphone-btn").delay(2300).animate( {bottom: "+=-3"}, 300);
-    $(".hero__iphone-btn").delay(300).animate( {top: "+=-3"}, 100);    
+    $(".hero__iphone-btn").delay(300).animate( {top: "+=-3"}, 100);  
+	
+	
+	    
+    $('.js-wp-4').waypoint(function(direction) {
+       
+       $('.js-wp-4').addClass('opacity--one animated slideInLeft');
+       
+   }, {
+		offset: '70%'
+	}); 
+	
+	
+	$('.js-wp-5').waypoint(function(direction) {
+       
+       $('.js-wp-5').addClass('opacity--one animated slideInDown');
+       
+   }, {
+		offset: '70%'
+	}); 
+	
+	
+	    $('.js-wp-6').waypoint(function(direction) {
+       
+       $('.js-wp-6').addClass('opacity--one animated slideInRight');
+       
+   }, {
+		offset: '70%'
+	}); 
     
     
     
