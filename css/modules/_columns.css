@@ -1,6 +1,10 @@
 .columns {
-	width: 33.33%;
+	width: 100%;
 	float: left;
+	
+	@mixin atMedium {
+		width: 33.33%;
+	}
 	
 	&--centered {
 		text-align: center;

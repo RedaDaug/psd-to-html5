@@ -5,26 +5,83 @@
 	}
 	
 	&__nav {
-		float: right;
+		overflow: hidden;
+		position: absolute;
+		top: 50px;
+		right: 20px;
+
 		
-		a{
+		@mixin atMedium {
+			float: right;		
+			
+		}	
+
+		
+		a{			
 			color: white;
 			text-decoration: none;
-			margin-right: 40px;
+			margin-right: 10px;
 			text-transform: uppercase;
-			padding-bottom: 10px;
+			
+			
+			@mixin atMedium {
+				margin-right: 10px;
+			}			
+			
+			@mixin atLarge {
+				margin-right: 40px;
+			}
 			
 		}
 		
-		a:hover {				
-			border-bottom: 4px solid white;
+		a:hover {			
+			
+			@mixin atMedium {
+				border-bottom: 4px solid white;	
+			}			
 		}
 	}
 	
+	&__burger-nav {
+		background: url(../img/hamburger.png) no-repeat 100% center;
+		display: block;
+		height: 31px;
+		width: 40px;
+		cursor: pointer;
+		float: right;
+		
+		@mixin atMedium {
+			display: none;
+		}
+		
+	}
 	
-	li {
-		display: inline-block;
+	
+	li {	
+		background-color: $mainDarkGray;
 		color: white;
+		display: block;
+		padding: 5px;
+		
+		@mixin atMedium {
+			background-color: transparent;
+			display: inline-block;
+			padding-bottom: 10px;
+		}		
+		
 	}	
+	
+	ul {
+		height: 0;
+		
+		@mixin atMedium{
+			height: auto;
+		}
+	}
+	
+	ul.open {
+		height: auto;
+		clear: both;
+	}
 	
 }

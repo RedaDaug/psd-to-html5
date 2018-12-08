@@ -1,6 +1,13 @@
 
 
 $(document).ready (function() {
+	
+	
+	$(".header__burger-nav").on("click", function(){
+        
+        $(".header ul").toggleClass("open");
+        
+    });
     
    $('.js-wp-2').waypoint(function(direction) {
        
