@@ -13,5 +13,10 @@
 @import "modules/_features";
 @import "modules/_footer";
 @import "animation/_animation";
+@import "animation/_slideInUp";
+@import "animation/_slideInDown";
+@import "animation/_slideInLeft";
+@import "animation/_slideInRight";
+@import "animation/_fadeIn";
 
 

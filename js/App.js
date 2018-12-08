@@ -1,5 +1,3 @@
-
-
 $(document).ready (function() {
 	
 	
@@ -8,6 +6,7 @@ $(document).ready (function() {
         $(".header ul").toggleClass("open");
         
     });
+	
     
    $('.js-wp-2').waypoint(function(direction) {
        
